@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.logo{
+    width: 150px;
+    margin: 20px ;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+nav ul li{
+    font-size: larger;
+    padding: 20px 10px;
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    border: 2px red solid;
+}
+.bottom{
+    height: 130px;
+    width: 100vw;
+    position: sticky;
+    bottom: 0;
+    border: 2px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: column;
+}
+#myProgressBar{
+    width: 80vw;
+}
+.icon{
+    padding: 10px
+}
+.icon i{
+    cursor: pointer;
+}
