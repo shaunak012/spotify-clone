@@ -27,7 +27,7 @@ main{
 }
 .container{
     padding: 20px;
-    background-image: url("/media/imgs/bg-img.webp");
+    background-image: url("./../media/imgs/bg-img.webp");
     min-height: 64vh;
     border: 2px red solid;
 }
