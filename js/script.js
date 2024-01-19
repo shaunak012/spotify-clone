@@ -1,7 +1,7 @@
 console.log('Welcome to spotify')
 
 //Initializing variables
-let audioElement=new Audio("/media/songs/Heroes-Tonight.mp3")
+let audioElement=new Audio("./../media/songs/Heroes-Tonight.mp3")
 let masterPlay=document.getElementById("masterPlay");
 let myProgressBar=document.getElementById("myProgressBar")
 let songIndex=0;
