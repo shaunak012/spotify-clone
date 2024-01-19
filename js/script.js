@@ -8,11 +8,11 @@ let songIndex=0;
 
 
 let songs=[
-    {songnName:"Heroes Tonight",filePath:"songs/Heroes-Tonight.mp3",coverPath:"imgs/Heroes-Tonight.webp"},
-    {songnName:"Heroes Tonight",filePath:"songs/Heroes-Tonight.mp3",coverPath:"imgs/Heroes-Tonight.webp"},
-    {songnName:"Heroes Tonight",filePath:"songs/Heroes-Tonight.mp3",coverPath:"imgs/Heroes-Tonight.webp"},
-    {songnName:"Heroes Tonight",filePath:"songs/Heroes-Tonight.mp3",coverPath:"imgs/Heroes-Tonight.webp"},
-    {songnName:"Heroes Tonight",filePath:"songs/Heroes-Tonight.mp3",coverPath:"imgs/Heroes-Tonight.webp"}
+    {songnName:"Heroes Tonight",filePath:"./../media/songs/Heroes-Tonight.mp3",coverPath:"./../media/imgs/Heroes-Tonight.webp"},
+    {songnName:"Heroes Tonight",filePath:"./../media/songs/Heroes-Tonight.mp3",coverPath:"./../media/imgs/Heroes-Tonight.webp"},
+    {songnName:"Heroes Tonight",filePath:"./../media/songs/Heroes-Tonight.mp3",coverPath:"./../media/imgs/Heroes-Tonight.webp"},
+    {songnName:"Heroes Tonight",filePath:"./../media/songs/Heroes-Tonight.mp3",coverPath:"./../media/imgs/Heroes-Tonight.webp"},
+    {songnName:"Heroes Tonight",filePath:"./../media/songs/Heroes-Tonight.mp3",coverPath:"./../media/imgs/Heroes-Tonight.webp"}
 ]
 //play pause action
 masterPlay.addEventListener(`click`,()=>{
